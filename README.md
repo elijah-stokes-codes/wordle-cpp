@@ -1,26 +1,25 @@
 # Wordle Game (C++)
 
-This is a colorful, console-based Wordle-style game written in C++. I created it during my freshman year at Morehouse College to practice input validation, control flow, and user interaction.
+This is a console-based Wordle-style game developed in C++ during my freshman year at Morehouse College. The project was created to strengthen my understanding of core programming concepts such as control flow, string manipulation, and user interaction.
 
-## 🎮 Game Features
-- **Fixed Answer**: The target word is preset to "SANTA"
-- **Input Validation**: Requires 5-letter words only
-- **Color Feedback**:
-  - 🟩 **Green**: Correct letter, correct position
-  - 🟨 **Yellow**: Correct letter, wrong position
-  - 🟥 **Red**: Incorrect letter
-- **Fun Messaging**: Adds personality with playful encouragement and end-game celebrations
-- **Terminal Color Codes**: Uses ANSI escape codes for colored output on supported terminals
+## 🎯 Features
+- Fixed target word: **"SANTA"**
+- Input validation to ensure only 5-letter guesses are accepted
+- Color-coded letter feedback using ANSI escape codes:
+  - 🟩 Green – Correct letter in the correct position
+  - 🟨 Yellow – Correct letter in the wrong position
+  - 🟥 Red – Incorrect letter
+- Personalized messages for correct guesses and game completion
 
-## 🛠️ Tech Used
-- C++
-- Standard I/O (iostream)
-- String functions (`length()`, `find()`)
-- Loops and conditionals
+## 🛠️ Tools & Technologies
+- Language: **C++**
+- Concepts: Loops, conditionals, string functions, and user input handling
+- Environment: Compiled and executed using a standard C++ compiler with terminal output support
 
-## 🚀 How to Run It
-1. Make sure you have a C++ compiler (like g++) installed.
-2. Clone or download this repo.
-3. In terminal/command line, compile the file:
-   ```bash
-   g++ -o wordle wordle.cpp
+## 🚀 How I Run the Game
+The game is compiled and executed using a C++ compiler. I run the code directly through my development environment, which builds and launches the program in the terminal with a single click of the **Run** button.
+
+## 💡 What I Gained
+- Improved confidence writing clean and readable C++ code
+- Hands-on experience with terminal-based UI through colored text
+- Deeper understanding of game loops, conditional logic, and user feedback design
